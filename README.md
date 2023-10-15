@@ -1,5 +1,5 @@
 # bagisto_AhdTheme
-this is a theme for bagisto made with js instead of vue.js . This theme is for <a href="http://targusme.com/">TargusMe</a> company's programmers who wants to use bagisto and don't wants to learn vue.js framework.
+this is a theme for bagisto made with js instead of vue.js . This theme is for <a href="http://targusme.com/">TargusMe</a> company's programmers who want to use bagisto and don't want to learn vue.js framework.
 <h5>Notes :</h5>
 <ol>
   <li>you need to create a new theme folder , and register it in the config files</li>
