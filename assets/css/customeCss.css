@@ -1,0 +1,142 @@
+ /* Hide the default scrollbar */
+ 
+ ::-webkit-scrollbar {
+     width: 5px;
+     /* You can adjust the width as per your design */
+ }
+ /* Track */
+ 
+ ::-webkit-scrollbar-track {
+     background: #f1f1f1;
+     /* Change the track color as needed */
+ }
+ /* Handle */
+ 
+ ::-webkit-scrollbar-thumb {
+     background: #548aff;
+     /* Change the handle color as needed */
+ }
+ /* Handle on hover */
+ 
+ ::-webkit-scrollbar-thumb:hover {
+     background: #304fff;
+     /* Change the handle color on hover as needed */
+ }
+ 
+ .body {
+     /* Track color */
+     scrollbar-color: #f1f1f1 #888;
+     /* Scrollbar width */
+     scrollbar-width: thin;
+ }
+ 
+ a {
+     text-decoration-line: none;
+ }
+ 
+ .rtl {
+     text-align: right;
+     direction: rtl;
+ }
+ 
+ .cart_img {
+     width: 25px;
+ }
+ 
+ .new {
+     position: absolute;
+     color: #fff;
+     background-color: darkblue;
+     min-width: 70px;
+     border-bottom-right-radius: 12px;
+ }
+ 
+ .regular-price {
+     text-decoration-line: line-through;
+     color: red;
+     display: inline-block;
+     margin: 0px 10px;
+ }
+ 
+ .sale {
+     background-color: #ccf9cc;
+     display: inline-block;
+     padding: 0px 10px;
+ }
+ 
+ .special-price {
+     color: #00f;
+ }
+ 
+ .a_category {
+     width: 100%;
+     background-color: white;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+ 
+ .a_category:hover {
+     background-color: blue;
+     color: white;
+ }
+ 
+ .category_card {
+     width: 15%;
+     margin: 5%;
+ }
+ 
+ .menu-item {
+     margin-bottom: 20px;
+ }
+ 
+ .account-action {
+     color: #00f;
+     font-size: 16px;
+ }
+ 
+ .account-table-content {
+     font-size: 20px
+ }
+ 
+ .account-table-first-td {
+     font-size: 18px;
+     color: #384aeb;
+     padding: 5px;
+ }
+ 
+ .account-table-second-td {
+     font-size: 16px;
+ }
+ 
+ .nav-item {
+     display: block;
+     float: none;
+     margin-right: 0px;
+     border-bottom: 1px solid #ededed;
+     margin-left: 0px;
+     transition: all 0.4s linear;
+ }
+ 
+ .control-error {
+     color: red;
+ }
+ 
+ .alert_message {
+     visibility: hidden;
+     position: fixed;
+     animation: alert_message 0.5 ease-in-out forwards 8s;
+     z-index: 9999;
+ }
+ 
+ @keyframes alert_message {
+     0% {
+         top: 0px;
+         visibility: visible;
+     }
+     10% {
+         top: 40px
+     }
+     100% {
+         opacity: 0.5;
+     }
+ }
